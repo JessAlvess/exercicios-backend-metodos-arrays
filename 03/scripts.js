@@ -2,8 +2,6 @@ const nomes = ['Ford Ká', 'Ranger', 'Hilux', 'Corola', 'Fusca', 'Chevete', 'Bra
 const posicao = 3;
 
 function print(arr, position) {
-    
-
     return console.log(`${arr.slice(position, position+3).join(' - ')}`)
 }
 
